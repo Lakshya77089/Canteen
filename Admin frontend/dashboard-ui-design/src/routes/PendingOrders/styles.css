@@ -1,0 +1,28 @@
+/* Ensuring consistent width for all columns */
+th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    width: 15%; /* Adjust according to content */
+  }
+  
+  td {
+    width: 15%; /* Adjust according to content */
+  }
+  
+  /* Specific tag column styling */
+  .tags-column {
+    max-width: 200px; /* Adjust based on your preference */
+    word-wrap: break-word; /* Prevents overflow of long text */
+    text-overflow: ellipsis; /* Adds '...' for overflowed text */
+  }
+  
+  /* Image size adjustment */
+  .table-img {
+    width: 50px; /* Adjust image size as per design */
+    height: 50px; /* Adjust image size */
+    object-fit: cover;
+  }
+  
